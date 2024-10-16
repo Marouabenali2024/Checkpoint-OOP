@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Travel Cart</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">TravelCart</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Travel Cart</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>My Travel Cart</h1>
+        <div class="cart">
+            <!-- Cart Item 1 -->
+            <div class="cart-item" data-price="1500">
+                <div class="item-info">
+                    <img src="./asset/beautiful-view-eiffel-tower-paris-france_9493-17860.jpg" width="200px" height="200px">
+                    <h2>Paris Adventure</h2>
+                    <p>$1500</p>
+                </div>
+                <div class="quantity-controls">
+                    <button class="decrease">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase">+</button>
+                </div>
+                <button class="delete-btn">Delete</button>
+                <button class="like-btn">❤</button>
+            </div>
+            <!-- Cart Item 2 -->
+            <div class="cart-item" data-price="1200">
+                <div class="item-info">
+                    <img src="./asset/italy.jpg" width="200px" height="200px">
+                    <h2>Rome Escape</h2>
+                    <p>$1200</p>
+                </div>
+                <div class="quantity-controls">
+                    <button class="decrease">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase">+</button>
+                </div>
+                <button class="delete-btn">Delete</button>
+                <button class="like-btn">❤</button>
+            </div>
+            <!-- Cart Item 3 -->
+            <div class="cart-item" data-price="2000">
+                <div class="item-info">
+                    <img src="./asset/Maldives.jpeg" width="200px" height="200px">
+                    <h2>Maldives Luxury</h2>
+                    <p>$2000</p>
+                </div>
+                <div class="quantity-controls">
+                    <button class="decrease">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase">+</button>
+                </div>
+                <button class="delete-btn">Delete</button>
+                <button class="like-btn">❤</button>
+            </div>
+            <!-- Cart Item 4 -->
+            <div class="cart-item" data-price="900">
+                <div class="item-info">
+                    <img src="./asset/Dubai City Tour.jpg" width="200px" height="200px">
+                    <h2>Dubai City Tour</h2>
+                    <p>$900</p>
+                </div>
+                <div class="quantity-controls">
+                    <button class="decrease">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase">+</button>
+                </div>
+                <button class="delete-btn">Delete</button>
+                <button class="like-btn">❤</button>
+            </div>
+            <!-- Cart Item 5 -->
+            <div class="cart-item" data-price="800">
+                <div class="item-info">
+                    <img src="./asset/India.jpg" width="200px" height="200px">
+                    <h2>India at a Glance|</h2>
+                    <p>$3000</p>
+                </div>
+                <div class="quantity-controls">
+                    <button class="decrease">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase">+</button>
+                </div>
+                <button class="delete-btn">Delete</button>
+                <button class="like-btn">❤</button>
+            </div>
+             <!-- Cart Item 6 -->
+            <div class="cart-item" data-price="800">
+                <div class="item-info">
+                    <img src="./asset/tunis.jpg" width="200px" height="200px">
+                    <h2>Explore Tunis</h2>
+                    <p>$800</p>
+                </div>
+                <div class="quantity-controls">
+                    <button class="decrease">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase">+</button>
+                </div>
+                <button class="delete-btn">Delete</button>
+                <button class="like-btn">❤</button>
+            </div>
+        </div>
+        <div class="total">
+            <h2>Total: $<span id="total-price">0</span></h2>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
+
